@@ -1,0 +1,29 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: var(--primary-color);
+  font-size: var(--regular-text);
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  color: var(--primary-color-light);
+}
+
+h1,
+h2,
+h3,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}

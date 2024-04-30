@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Jersey+15&display=swap");
+
+/* Starts all the elements from HTML */
+@tailwind base;
+/* Access to all the classes of tailwind */
+@tailwind components;
+/* Add the utlities to the project and allow us to access them */
+@tailwind utilities;
+
+@layer base {
+  p {
+    font-family: "Jersey 15", sans-serif;
+  }
+}
+
+.text-example {
+  @apply text-red-500 bg-blue-50;
+}

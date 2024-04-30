@@ -1,0 +1,13 @@
+/* :root {
+  --bg-color: #ffffff;
+  --primary-color: #0d1f2d;
+  --primary-color-light: rgba(42, 37, 32, 0.707);
+  --secondary-color: #4088bf;
+  --details-color: #ffdc00;
+  --borders-color: rgba(128, 128, 128, 0.391);
+
+  --primary-text: clamp(2.5rem, 5vw, 3.5rem);
+  --secondary-text: clamp(2rem, 5vw, 2.3rem);
+  --tertiary-text: clamp(1.6rem, 5vw, 1.8rem);
+  --regular-text: clamp(1.4rem, 2vw, 1.6rem);
+} */
