@@ -104,9 +104,9 @@
         class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0"
       >
         <!-- Left / bottom item -->
-        <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+        <div class="flex flex-col mb-20 md:mb-32 space-y-12 md:w-1/2">
           <h1
-            class="max-w-md text-4xl text-center md:text-5xl font-bold md:text-left"
+            class="text-darkBlue max-w-md text-4xl text-center md:text-5xl font-bold md:text-left"
           >
             Bring everyone together to build better products
           </h1>
@@ -131,22 +131,49 @@
     </section>
 
     <!-- features section -->
-    <div id="features">
+    <section id="features">
       <!-- Flex container -->
-      <div class="flex container flex-col px-4 mx-auto mt-10 space-y-12">
+      <div class="flex container flex-col px-4 mx-auto space-y-12 md:flex-row">
         <!-- different text -->
-        <div>
-          <h2>What's different about Manage?</h2>
-          <p>
+        <div class="flex flex-col items-center space-y-4 md:w-1/2">
+          <h2
+            class="text-darkBlue text-3xl text-center md:text-4xl font-bold md:text-left"
+          >
+            What's different about Manage?
+          </h2>
+          <p
+            class="max-w-sm text-center text-drakGrayishblue md:text-left md:self-start"
+          >
             Manage provides all the functionality your team needs, without the
             complexity. Our software is tailor-made for modern digital product
             teams.
           </p>
         </div>
         <!-- numbered list -->
-        <div></div>
+        <div class="flex flex-col space-y-8 md:w-1/2">
+          <!-- Item 01 -->
+          <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6">
+            <!-- Heading -->
+            <div class="rounded-l-full bg-brightRedSuplight md:bg-transparent">
+              <div class="flex items-center space-x-2">
+                <div
+                  class="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed font-bold"
+                >
+                  01
+                </div>
+                <h3>Track company-wide progress</h3>
+              </div>
+            </div>
+            <!-- DEscription -->
+            <p class="text-drakGrayishblue">
+              See how your day-to-day tasks fit into the wider vision. Go from
+              tracking progress at the milestone llevel all the way done to the
+              smallets of detail. Never lose sight of the bigger picture again.
+            </p>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
 
     <script src="scripts/main.js"></script>
   </body>
