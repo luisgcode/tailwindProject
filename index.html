@@ -426,12 +426,14 @@
     </section>
 
     <!-- Footer -->
-    <footer>
+    <footer class="border border-red-200">
       <div
-        class="flex flex-col items-center space-y-12 bg-veryDarkBlue mx-auto py-12"
+        class="md:flex-row-reverse md:items-start md:space-y-0 border border-red-200 flex flex-col items-center space-y-12 bg-veryDarkBlue mx-auto py-12"
       >
         <!-- Newsletter -->
-        <div class="flex justify-center container px-2 space-x-3">
+        <div
+          class="border border-red-200 flex justify-center container px-2 space-x-3"
+        >
           <input
             class="w-2/3 rounded-full px-5"
             type="text"
@@ -445,7 +447,7 @@
           </button>
         </div>
         <!-- footer menu -->
-        <div class="container text-white font-semibold">
+        <div class="border border-red-200 container text-white font-semibold">
           <!-- List items -->
           <div class="flex justify-around">
             <ul class="space-y-3">
@@ -462,9 +464,11 @@
           </div>
         </div>
         <!-- social & logo -->
-        <div>
+        <div
+          class="md:w-2/5 md:flex-col-reverse md:space-y-0 border border-red-200 flex flex-col items-center space-y-10"
+        >
           <!-- Social -->
-          <ul class="flex space-x-11">
+          <ul class="flex md:space-x-3 space-x-11">
             <li>
               <img class="w-6" src="assets//images/icon-facebook.svg" alt="" />
             </li>
@@ -485,6 +489,9 @@
           <img src="assets/images/logo-white.svg" alt="" />
         </div>
         <!-- copy -->
+        <p class="md:hidden border border-red-200 text-drakGrayishblue text-sm">
+          Copyright 2020. All Rights Reserved
+        </p>
       </div>
     </footer>
 
